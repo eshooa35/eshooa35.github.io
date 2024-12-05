@@ -27,3 +27,14 @@ body, html{
     margin: 0;
     padding: 0;
 }
+
+.menu-bar li{
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.menu-bar li a:hover{
+    transform: scale(1.1)rotate(5deg);
+    color: hsl(0deg 70% 80%);
+}
+
