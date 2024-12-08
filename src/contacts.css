@@ -141,8 +141,8 @@ body, html {
    animation: bubble 2s infinite ease-in-out;
 }
 
-.social-links a[href*="instagram.com"]::before {
-   content: "\f16d";
+.social-links a[href*="github.com"]::before {
+    content: "\f09b";
    font-family: "Font Awesome 5 Brands";
    margin-right: 5px;
 }
