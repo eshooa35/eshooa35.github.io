@@ -33,8 +33,103 @@ body, html{
     margin: 0 15px;
 }
 
+.menu-bar li a {
+    color: hsl(261deg 70% 80%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+ }
+
 .menu-bar li a:hover{
     transform: scale(1.1)rotate(5deg);
     color: hsl(0deg 70% 80%);
 }
 
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 0; /* Increase the padding to make the navbar taller */
+    z-index: 100;
+    background: linear-gradient(120deg, hsl(260 80% 50%), hsl(0 100% 50%));
+ }
+
+ .menu-bar li a {
+    color: hsl(261deg 70% 80%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px; /* Increase the font size to make the text larger */
+    transition: all 0.2s ease-in-out;
+ }
+
+ @media screen and (min-width: 768px) {
+    .row .col {
+        width: 50%;
+    }
+ 
+    .card h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+ 
+    .card p {
+        top: 60%;
+        font-size: 13px;
+    }
+ }
+ 
+ @media screen and (min-width: 1180px) {
+    .row .col {
+        width: calc(100%/3);
+    }
+ 
+    .card h1 {
+        top: 50%;
+        font-size: 22px;
+    }
+ 
+    .card p {
+        top: 0%;
+        font-size: 37px;
+    }
+ }
+ 
+ p {
+  font-weight: bold;
+ }
+ 
+ 
+ .banner-text {
+    color: rgb(240, 135, 135);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 2 auto;
+    padding: 0 20px;
+ }
+ 
+ 
+ .banner-text {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .name {
+    color: #ff6347; 
+    font-weight:lighter;
+    font-size: 1.5em; 
+ }
+ 
+ 
+ .profession {
+    color: #fccb63; 
+    font-weight:lighter;
+    font-size: 1.2em;
+ }
